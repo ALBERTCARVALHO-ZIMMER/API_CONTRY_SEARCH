@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background: rgb(18, 29, 187);
+
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(69, 63, 255, 1) 0%, rgba(22, 18, 168, 1) 0%, rgba(26, 22, 173, 1) 5%, rgba(33, 108, 217, 1) 8%, rgba(8, 33, 137, 1) 30%, rgba(9, 9, 121, 1) 35%, rgba(22, 75, 184, 1) 56%, rgba(2, 103, 231, 1) 60%, rgba(4, 69, 196, 1) 60%, rgba(6, 78, 166, 1) 67%, rgba(0, 146, 255, 1) 100%);
+
+}
+
+.container {
+    display: inline-flex;
+    flex-direction: column;
+    border: 8px solid antiquewhite;
+    padding: 15px;
+    gap: 10px;
+    border-radius: 30px;
+
+
+}
+
+h2 {
+    text-align: center;
+    color: rgb(235, 235, 247);
+    font-size: 40px;
+}
+
+input {
+
+    width: center;
+    padding: 10px 12px;
+    border: 2px solid #1753c2;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(227, 230, 235, 0.1);
+    font-size: 15px;
+    box-sizing: border-box;
+    line-height: 1.5;
+    outline: none;
+
+
+
+}
+
+p {
+    width: fit-content;
+    padding: 10px 12px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgb(29, 78, 211);
+    font-size: 15px;
+    box-sizing: border-box;
+    line-height: 1.5;
+    outline: none;
+    color: aliceblue
+}
+
+.botao-enviar {
+    height: 30px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+}
